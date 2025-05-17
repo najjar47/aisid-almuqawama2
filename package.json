@@ -1,0 +1,28 @@
+{
+  "name": "lion-of-resistance",
+  "version": "1.0.0",
+  "description": "A 2D platformer game about Palestinian resistance",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "clean": "rm -rf dist .cache .parcel-cache",
+    "prebuild": "npm run clean"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "> 0.5%"
+  ],
+  "author": "Osama Al-Najjar (Abu Hamza)",
+  "license": "UNLICENSED",
+  "private": true
+} 
